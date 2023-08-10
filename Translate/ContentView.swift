@@ -9,18 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+           
+           TranslationView()
+                .tabItem {
+                    Image(systemName: "textformat")
+                    Text("Home")
+                }
+            
+            Text("Favorites")
+                .tabItem {
+                    Image(systemName: "mic.fill")
+                    Text("Mic")
+                }
+            
+            Text("Profile")
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
         }
-        .padding()
+    
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }

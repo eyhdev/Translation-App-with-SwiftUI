@@ -14,6 +14,7 @@
 		D45455D42A7FC81F002D1B4E /* TranslateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45455D32A7FC81F002D1B4E /* TranslateTests.swift */; };
 		D45455DE2A7FC81F002D1B4E /* TranslateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45455DD2A7FC81F002D1B4E /* TranslateUITests.swift */; };
 		D45455E02A7FC81F002D1B4E /* TranslateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45455DF2A7FC81F002D1B4E /* TranslateUITestsLaunchTests.swift */; };
+		D45455EF2A7FCB3E002D1B4E /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45455EE2A7FCB3E002D1B4E /* TranslationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D45455D92A7FC81F002D1B4E /* TranslateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TranslateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45455DD2A7FC81F002D1B4E /* TranslateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateUITests.swift; sourceTree = "<group>"; };
 		D45455DF2A7FC81F002D1B4E /* TranslateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D45455EE2A7FCB3E002D1B4E /* TranslationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				D45455C22A7FC81D002D1B4E /* TranslateApp.swift */,
 				D45455C42A7FC81D002D1B4E /* ContentView.swift */,
+				D45455EE2A7FCB3E002D1B4E /* TranslationView.swift */,
 				D45455C62A7FC81F002D1B4E /* Assets.xcassets */,
 				D45455C82A7FC81F002D1B4E /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45455EF2A7FCB3E002D1B4E /* TranslationView.swift in Sources */,
 				D45455C52A7FC81D002D1B4E /* ContentView.swift in Sources */,
 				D45455C32A7FC81D002D1B4E /* TranslateApp.swift in Sources */,
 			);
